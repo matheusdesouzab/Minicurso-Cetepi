@@ -24,7 +24,7 @@
             <label for="password">Senha</label>
             <input type="password" name="password" placeholder="Digite sua senha" />
             <a href="" style="margin-top: 10px;">Já possui uma conta? Acessar agora</a>
-            <button class="btn" type="">Criar conta</button>
+            <button class="btn" type="submit">Criar conta</button>
         </form>
     </div>
 
