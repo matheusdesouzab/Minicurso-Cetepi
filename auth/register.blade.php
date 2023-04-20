@@ -18,11 +18,11 @@
             <p class="description">Crie sua conta agora em nossa plataforma, e começe a organizar suas tarefas de forma
                 bastante simples.</p>
             <label for="email">E-mail</label>
-            <input type="email" name="email" placeholder="Digite seu e-mail" />
+            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" />
             <label for="name">Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" />
+            <input id="name" type="text" name="name" placeholder="Digite seu nome" />
             <label for="password">Senha</label>
-            <input type="password" name="password" placeholder="Digite sua senha" />
+            <input id="name" type="password" name="password" placeholder="Digite sua senha" />
             <a href="" style="margin-top: 10px;">Já possui uma conta? Acessar agora</a>
             <button class="btn" type="submit">Criar conta</button>
         </form>
