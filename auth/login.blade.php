@@ -17,9 +17,9 @@
             </div>
             <p class="description">Acesse sua conta e continue organizando suas tarefas</p>
             <label for="email">E-mail</label>
-            <input type="email" name="email" placeholder="Digite seu e-mail" value="" />
+            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" value="" />
             <label for="password">Senha</label>
-            <input type="password" name="password" placeholder="Digite sua senha" value="" />
+            <input id="password" type="password" name="password" placeholder="Digite sua senha" value="" />
             <a href="" style="margin-top: 10px;">Não tem uma conta? Criar agora</a>
             <button class="btn" type="submit">Acessar conta</button>
         </form>
