@@ -13,13 +13,13 @@
 
     <nav>
         <div class="logo">
-            <a class="{{ route('todo-list.index') }}" href="">SIMPLES TASKS</a>
+            <a class="" href="">SIMPLES TASKS</a>
             <img src="https://www.pngall.com/wp-content/uploads/12/Green-Check-PNG-Cutout.png" alt="">
         </div>
         <ul>
             <li><a href="#" onclick="document.getElementById('logout').submit()"><i
                         class="bi bi-box-arrow-right"></i></a></li>
-            <form id="logout" action="{{ route('logout') }}" method="POST">
+            <form id="logout" action="" method="POST">
                 @csrf
             </form>
         </ul>
