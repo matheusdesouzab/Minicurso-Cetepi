@@ -16,9 +16,11 @@
             <img src="https://www.pngall.com/wp-content/uploads/12/Green-Check-PNG-Cutout.png" alt="">
         </div>
         <ul>
-            <li><a href="#" onclick="document.getElementById('logout').submit()"><i
-                        class="bi bi-box-arrow-right"></i></a></li>
-            <form id="logout" action="{{ route('logout') }}" method="POST">
+            <li><a href="#">Home</a></li>
+            <li><a href="/tasks/create">Nova Tarefa</a></li>
+            <li><a href="#">Listagem</a></li>
+            <li><a href="#" onclick="document.getElementById('formLogout').submit()">Sair</a></li>
+            <form id="formLogout" method="POST" action="{{ route('auth.logout') }}">
                 @csrf
             </form>
         </ul>
