@@ -29,7 +29,7 @@
     <main id="container">
         <div class="content-header">
             <h2>Listagem de listas de tarefas</h2>
-            <a class="link" href="{{ route('todo-list.create') }}">Criar nova lista</a>
+            <a class="link" href="{{ route('tasks.create') }}">Criar nova lista</a>
         </div>         
     </main>
 
