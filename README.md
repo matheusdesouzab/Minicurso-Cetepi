@@ -1,1 +1,1 @@
-# Arquivos de apoio para a construção do projeto
+# Arquivos de apoio para a construção do projeto Simple Tasks
